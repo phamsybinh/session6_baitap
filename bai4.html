@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai 4</title>
+</head>
+
+<body>
+    <script>
+        let diemToan = parseFloat(prompt("Điểm môn Toán"));
+        let diemVatLy = parseFloat(prompt("Điểm môn Vật Lý"));
+        let diemHoa = parseFloat(prompt("Điểm môn Hóa"));
+        let tongDiem = diemToan + diemVatLy + diemHoa;
+        let diemTrungBinh = tongDiem / 3;
+        document.write("Tổng điểm ba môn là: " + tongDiem + "<br>");
+        document.write("Điểm trung bình của ba môn là: " + diemTrungBinh + "<br>");
+
+        let doCelsius = parseFloat(prompt("Nhiệt độ Celsius(độ C)"));
+        let doFahrenheit = 9 * doCelsius / 5 + 32;
+        document.write("Nhiệt độ Fahrenheit(độ F) là: " + doFahrenheit + '\u00B0' + "F");
+        
+    </script>
+</body>
+
+</html>
